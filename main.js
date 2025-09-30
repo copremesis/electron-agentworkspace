@@ -13,7 +13,10 @@ function createWindow () {
   })
 
   // and load the index.html of the app.
-  mainWindow.loadFile('index.html')
+  //mainWindow.loadFile('index.html')
+  //mainWindow.loadURL('https://dragonwrench.awsapps.com/connect/ccp-v2')
+  mainWindow.loadURL('https://dragonwrench.my.connect.aws/agent-app-v2?referrer=admin')
+  //mainWindow.loadURL('http://localhost:8003')
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
